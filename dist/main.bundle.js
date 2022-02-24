@@ -1,3 +1,4 @@
+"use strict";
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -6,9 +7,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
+(self["webpackChunkrahman_blog"] = self["webpackChunkrahman_blog"] || []).push([["main"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
@@ -16,7 +15,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n\\tbox-sizing: border-box;\\r\\n}\\r\\n\\r\\nh1 {\\r\\n\\tcolor: aqua;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://rahman-blog/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n\\tbox-sizing: border-box;\\r\\n\\tfont-family: sans-serif;\\r\\n\\tpadding: 0;\\r\\n\\tmargin: 0;\\r\\n}\\r\\n\\r\\nmain.login {\\r\\n\\tdisplay: flex;\\r\\n\\theight: 100vh;\\r\\n\\tjustify-content: center;\\r\\n\\talign-items: center;\\r\\n\\tbackground-color: #d4d4d8;\\r\\n}\\r\\n\\r\\n.card {\\r\\n\\tborder: 1px solid #eee;\\r\\n\\tbackground-color: #fff;\\r\\n\\tpadding: 35px 42px;\\r\\n\\tborder-radius: 5px;\\r\\n\\tmin-width: 350px;\\r\\n}\\r\\n\\r\\n.card .card-header {\\r\\n\\tfont-size: 20px;\\r\\n\\tmargin-bottom: 40px;\\r\\n}\\r\\n\\r\\n.form-item {\\r\\n\\tdisplay: flex;\\r\\n\\tflex-direction: column;\\r\\n\\tjustify-content: space-between;\\r\\n\\t/* align-items: center; */\\r\\n\\tmargin-bottom: 20px;\\r\\n}\\r\\n\\r\\n.form-item label {\\r\\n\\tmargin-bottom: 12px;\\r\\n\\tfont-size: 17px;\\r\\n}\\r\\n\\r\\n.form-item input,\\r\\ntextarea {\\r\\n\\twidth: 100%;\\r\\n\\tfont-size: 0.8em;\\r\\n\\tcolor: #333;\\r\\n\\tborder: 1px solid #d4d4d8;\\r\\n\\tpadding: 12px 15px;\\r\\n\\tborder-radius: 5px;\\r\\n}\\r\\n\\r\\n.form-item input:focus,\\r\\ntextarea:focus {\\r\\n\\toutline: 3px solid #e83e8c;\\r\\n}\\r\\n\\r\\n.button-primary {\\r\\n\\tbackground-color: #e83e8c;\\r\\n\\tborder: none;\\r\\n\\tfont-size: 1.1em;\\r\\n\\tcolor: #fff;\\r\\n\\tpadding: 10px 20px;\\r\\n\\tborder-radius: 5px;\\r\\n\\tcursor: pointer;\\r\\n}\\r\\n\\r\\n.button-primary.button-block {\\r\\n\\twidth: 100%;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://rahman-blog/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,89 +109,39 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/User.js":
+/*!*********************!*\
+  !*** ./src/User.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./data */ \"./src/data.js\");\n\r\n\r\nclass User {\r\n\tconstructor(username, password) {\r\n\t\tthis.username = username;\r\n\t\tthis.password = password;\r\n\t\tthis.database = _data__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\r\n\t\tthis.isLogin = false;\r\n\t}\r\n\r\n\tvalidationLogin() {\r\n\t\tif (this.username !== this.database.USERNAME) return false;\r\n\t\tif (this.password !== this.database.PASSWORD) return false;\r\n\r\n\t\treturn (this.isLogin = true);\r\n\t}\r\n\r\n\tsuccessLogin() {\r\n\t\twindow.alert(\"Login kamu berhasil!\");\r\n\t}\r\n\r\n\tfailureLogin() {\r\n\t\twindow.alert(\r\n\t\t\t\"Login kamu gagal!, silahkan cek kembali username dan passwordnya\",\r\n\t\t);\r\n\t}\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (User);\r\n\n\n//# sourceURL=webpack://rahman-blog/./src/User.js?");
+
+/***/ }),
+
+/***/ "./src/data.js":
+/*!*********************!*\
+  !*** ./src/data.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst USERNAME = \"rahman022\";\r\nconst PASSWORD = \"12345678\";\r\nconst NAME = \"Rahman Nurhidayat\";\r\nconst ALAMAT = \"Kelurahan kebun jayanti, Kiaracondong, kota Bandung\";\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({ USERNAME, PASSWORD, NAME, ALAMAT });\r\n\n\n//# sourceURL=webpack://rahman-blog/./src/data.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\r\n\r\nfunction component() {\r\n\tconst element = document.createElement(\"h1\");\r\n\r\n\telement.innerHTML = \"Hello webpack!\";\r\n\r\n\treturn element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\n\n\n//# sourceURL=webpack://rahman-blog/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _User__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./User */ \"./src/User.js\");\n\r\n\r\n\r\nfunction login() {\r\n\tconst loginForm = document.getElementById(\"loginForm\");\r\n\r\n\tfunction logSubmit(event) {\r\n\t\tevent.preventDefault();\r\n\r\n\t\tconst username = document.getElementById(\"username\").value;\r\n\t\tconst password = document.getElementById(\"password\").value;\r\n\t\tconst user = new _User__WEBPACK_IMPORTED_MODULE_1__[\"default\"](username, password);\r\n\r\n\t\tif (user.validationLogin()) {\r\n\t\t\tuser.successLogin();\r\n\t\t} else {\r\n\t\t\tuser.failureLogin();\r\n\t\t}\r\n\t}\r\n\r\n\tloginForm.addEventListener(\"submit\", logSubmit);\r\n}\r\n\r\nlogin();\r\n\n\n//# sourceURL=webpack://rahman-blog/./src/index.js?");
 
 /***/ })
 
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
-/******/ 	
-/******/ })()
-;
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
+/******/ }
+]);

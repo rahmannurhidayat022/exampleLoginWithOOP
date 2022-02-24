@@ -1,11 +1,24 @@
 import "./style.css";
-import Card from "./components/Card.js";
+import User from "./User";
 
-function component() {
-	const element = document.createElement("div");
-	element.id = "root";
+function login() {
+	const loginForm = document.getElementById("loginForm");
 
-	return element;
+	function logSubmit(event) {
+		event.preventDefault();
+
+		const username = document.getElementById("username").value;
+		const password = document.getElementById("password").value;
+		const user = new User(username, password);
+
+		if (user.validationLogin()) {
+			user.successLogin();
+		} else {
+			user.failureLogin();
+		}
+	}
+
+	loginForm.addEventListener("submit", logSubmit);
 }
 
-document.body.appendChild(component());
+login();

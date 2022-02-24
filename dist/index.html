@@ -1,9 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Rahman Blog with webpack</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="main.bundle.js"></script></head>
-  <body>
-  </body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+	<script defer src="/runtime.bundle.js"></script><script defer src="/main.bundle.js"></script></head>
+	<body>
+		<main class="login">
+			<section class="card">
+				<div class="card-header">
+					<h2>Welcome writter!</h2>
+				</div>
+				<div class="card-body">
+					<form method="post" id="loginForm">
+						<div class="form-item">
+							<label for="username">Username</label>
+							<input type="text" name="username" id="username" />
+						</div>
+						<div class="form-item">
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" />
+						</div>
+						<button type="submit" class="button-primary button-block">
+							Login
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
